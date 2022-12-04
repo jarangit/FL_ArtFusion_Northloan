@@ -7,7 +7,7 @@ const Section1 = () => {
         <div className='text-3xl text-blue'>
           Northloan-offer is on guard of your comfort and time
         </div>
-        <div className='text-lg w-1/2 mx-auto'>
+        <div className='text-lg w-full lg:w-1/2 mx-auto'>
           Life can be unpredictable. At Northloan-offer we do our best to offer fast and safe solutions in any challenging situation. We implement the highest security standards, as well as calibrated automated processes to make your experience with us not only useful, but utterly pleasant as well!
         </div>
       </div>

@@ -12,7 +12,7 @@ const Section2 = () => {
       <div className='flex flex-col gap-6 px-6'>
         <div className='text-4xl text-blue font-bold'>Fast. Reliable. Transparent.</div>
         <div className='leading-8'>We offer free and straightforward services without any hidden fees or charges on our part. And as we care about your comfort and safety, we enable you to submit a request without having to worry about any obligations or threats to your data security.</div>
-        <div className='flex gap-3'>
+        <div className='flex gap-3 flex-wrap'>
           <div className='flex gap-2 items-center bg-gray-light text-blue py-2 px-4 rounded-sm'>
             <div>
               <AiOutlineCheck size={20} />

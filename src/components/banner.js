@@ -6,7 +6,7 @@ const Banner = () => {
     <div className=''>
       <div className='grid grid-cols-1 lg:grid-cols-2 items-center '>
         <div >
-          <div className='flex flex-col gap-10  items-center px-3'>
+          <div className='flex flex-col gap-10  items-center p-3'>
             <div className='flex gap-3 items-center'>
               <img src="/img/icons/logo.svg" alt="" />
               <div className='text-3xl font-bold text-[#00052ca8]'>northloan-offer</div>
@@ -14,7 +14,7 @@ const Banner = () => {
             <div className='text-5xl font-bold max-w-[60%] text-blue'>
               Get Your Personal Loan Up To $5000
             </div>
-            <div className='w-2/3'>
+            <div className='w-full lg:w-2/3'>
               <LoanForm />
             </div>
             <div>
