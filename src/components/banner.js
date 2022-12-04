@@ -52,9 +52,9 @@ const Banner = () => {
         </div>
         <div className=' relative h-[680px] overflow-hidden'>
           <div className='myBanner z-10' />
-          <div className='relative border rotate-[10deg] w-[1500px] -right-8 overflow-hidden'>
-          <div className='bg_blue h-[1090px] w-[100%] absolute]' />
-          <div className='bg-[#304ffe]  h-[590px] w-[100%] absolute top-[500px] right-20' />
+          <div className='relative rotate-[10deg] w-[1500px] -right-8 overflow-hidden'>
+            <div className='bg_blue h-[1090px] w-[100%] absolute]' />
+            <div className='bg-[#304ffe]  h-[590px] w-[100%] absolute top-[500px] right-20' />
           </div>
         </div>
       </div>

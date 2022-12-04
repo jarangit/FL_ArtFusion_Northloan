@@ -43,3 +43,14 @@ code {
   transform: rotate(20deg);
   background: linear-gradient(-45deg, #01e5ff, #304ffe);
 }
+.myContainer {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+.myFlip {
+  transform: scaleX(-1) translateY(5%);
+}
+.myShadows{
+  box-shadow: 0 0.25rem 0.75rem rgb(0 21 106 / 9%);
+}
