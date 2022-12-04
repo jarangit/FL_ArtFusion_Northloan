@@ -24,10 +24,10 @@ const Footer = () => {
           <div className='mt-6 text-center text-gray-light'>
             <div>
               <span className='font-bold'>Email:</span>
-              contact@fionaloan-online.com
+              Contact@northloan-offer.com
             </div>
             <div>
-              Copyright © 2022 fionaloan-online.com All Rights Reserved.
+            Copyright © 2022 northloan-offer.com All Rights Reserved.
             </div>
           </div>
         </div>

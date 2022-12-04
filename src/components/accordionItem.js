@@ -10,7 +10,7 @@ const AccordionItem = ({ title, content, id }) => {
   }, [id])
 
   return (
-    <div className='px-6 rounded-md '>
+    <div className=' rounded-md '>
       <div className='flex justify-between  p-4 rounded-lg cursor-pointer bg-gray-light '
         onClick={() => setShow(!show)}
       >
@@ -23,7 +23,7 @@ const AccordionItem = ({ title, content, id }) => {
       </div>
       <div className={`overflow-hidden transition-all duration-300 bg-white  text-blue-dark ${show ? "max-h-[500px] p-3" : "max-h-0"}`}>
         {content === "table" ? (
-          <table className="table-auto w-[400px] text-center border-border border">
+          <table className="table-auto w-[320px] text-center border-border border">
             <thead>
               <tr>
                 <th className='border border-border' >Minimum</th>
