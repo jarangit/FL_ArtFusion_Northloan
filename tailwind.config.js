@@ -20,6 +20,9 @@ module.exports = {
         light:"#F0F1F5",
         DEFAULT:"#000a4a6b",
       },
+      "white":{
+        DEFAULT:"#ffff",
+      },
     }
   },
   plugins: [],
